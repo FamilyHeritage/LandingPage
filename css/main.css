@@ -499,6 +499,25 @@ a:hover {
 	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+.play
+{
+display:table-cell; 
+vertical-align:middle;
+ margin-left:240px;
+ opacity: 0.5;
+}
+.play:hover {
+    opacity: 1.0;
+    width: 110px;
+	height: 110px;
+}
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+	visibility: hidden;
+}
 .video-embed iframe {
 	position: absolute;
 	top: 0;
