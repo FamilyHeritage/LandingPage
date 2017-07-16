@@ -8,15 +8,15 @@
 
         <!-- CSS Files -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-        <link href="../../css/animate.css" rel="stylesheet" media="screen">
-        <link href="../../css/owl.theme.css" rel="stylesheet">
-        <link href="../../css/owl.carousel.css" rel="stylesheet">
+        <link href="/font-awesome.min.css" rel="stylesheet">
+        <link href="/pe-icon-7-stroke.css" rel="stylesheet">
+        <link href="/animate.css" rel="stylesheet" media="screen">
+        <link href="/owl.theme.css" rel="stylesheet">
+        <link href="/owl.carousel.css" rel="stylesheet">
 
         <!-- Colors -->
-        <link href="../../css/main.css" rel="stylesheet" media="screen">
-        <link href="../../css/signupform.css" rel="stylesheet" media="screen">
+        <link href="/main.css" rel="stylesheet" media="screen">
+        <link href="/signupform.css" rel="stylesheet" media="screen">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
  
     </head>
@@ -30,7 +30,7 @@
        
 
         <!-- /.parallax full screen background image -->
-        <div class="fullscreen landing parallax" style="background-image:url('../../images/fh4.png');" data-img-width="2000" data-img-height="1333" data-diff="100">
+        <div class="fullscreen landing parallax" style="background-image:url('/fh4.png');" data-img-width="2000" data-img-height="1333" data-diff="100">
         <div id="menu">
             <nav class="navbar-wrapper navbar-default" role="navigation">
                 <div class="container">
@@ -41,7 +41,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand site-name" href="#top"><img src="../../images/logo.png" alt="logo"></a>
+                        <a class="navbar-brand site-name" href="#top"><img src="/logo.png" alt="logo"></a>
                     </div>
 
                     <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
@@ -51,7 +51,7 @@
                             <li><a href="#download">Who</a></li>
                             <li><a href="#package">Genelogy tree</a></li>
                             <li><a href="#testi">Reviews</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="D:\LaFamille\landingpage/views/Pages/welcome.html">Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                                 <h1>YOUR FAMILY HISTORY</h1>
                                 </div>
                                 <div >
-                                <a href="https://player.vimeo.com/video/121141200"> <img class="play" src="../../images/play.png"  /></a>
+                                <a href="https://player.vimeo.com/video/121141200"> <img class="play" src="/play.png"  /></a>
                                 <iframe  src="https://player.vimeo.com/video/121141200"  width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>				  
 
@@ -90,17 +90,18 @@
   <div class="form1" class="signup-header wow fadeInUp">
     <h3 class="form-title text-center">GET STARTED</h3>  
     <!-- Start of form -->
-    <form class="register-form">
+    <form class="register-form" action="/signup" method="post"> 
          <input type="radio" name="gender" value="male"> Male
   <input type="radio" name="gender" value="female"> Female
   <input type="radio" name="gender" value="other"> Other
-      <input style="width: 100%" type="first_name" placeholder="first name">
-      <input style="width: 100%" type="last_name" placeholder="last name">
-      <input style="width: 100%" type="text" placeholder="email address">
-      <input style="width: 100%" type="password" placeholder="password">
-      <button class="btn">Sign me up!</button>
+      <input style="width: 100%" type="first_name" name = "first_name" placeholder="first name">
+      <input style="width: 100%" type="last_name" name = "last_name" placeholder="last name">
+      <input style="width: 100%" type="text" name = "email" placeholder="email address">
+      <input style="width: 100%" type="password"  name = "password" placeholder="password">
+      <button class="btn">Sign me up!</button> 
+        </form>
       <p class="message">Already registered? <a href="#">Sign In</a></p>
-    </form>
+   
     <!-- End of form -->
   </div>
 </div>
@@ -122,7 +123,7 @@
 
                     <!-- /.intro image -->
                     <div class="col-md-6 intro-pic wow slideInLeft">
-                        <img src="../../images/familytree.jpg" alt="image" class="img-responsive">
+                        <img src="/familytree.jpg" alt="image" class="img-responsive">
                     </div>	
 
                     <!-- /.intro content -->
@@ -152,7 +153,7 @@
 
                         <!-- /.feature image -->
                         <div class="feature-img">
-                            <img src="../../images/feature-image.jpg" alt="image" class="img-responsive wow fadeInLeft">
+                            <img src="/feature-image.jpg" alt="image" class="img-responsive wow fadeInLeft">
                         </div>
                     </div>
 
@@ -216,7 +217,7 @@
 
                     <!-- /.feature image -->
                     <div class="col-md-6 feature-2-pic wow fadeInRight">
-                        <img src="../../images/feature2-image.jpg" alt="macbook" class="img-responsive">
+                        <img src="/feature2-image.jpg" alt="macbook" class="img-responsive">
                     </div>				  
                 </div>			  
 
@@ -226,7 +227,7 @@
 
         <!-- /.download section -->
         <div id="download">
-            <div class="action fullscreen parallax" style="background-image:url('../../images/bg.jpg');" data-img-width="2000" data-img-height="1333" data-diff="100">
+            <div class="action fullscreen parallax" style="background-image:url('/bg.jpg');" data-img-width="2000" data-img-height="1333" data-diff="100">
                 <div class="overlay">
                     <div class="container">
                         <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
@@ -405,10 +406,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <img alt="client" src="../../images/client1.png" class="wow fadeInUp">
-                        <img alt="client" src="../../images/client2.png" class="wow fadeInUp" data-wow-delay="0.2s">
-                        <img alt="client" src="../../images/client3.png" class="wow fadeInUp" data-wow-delay="0.4s">
-                        <img alt="client" src="../../images/client4.png" class="wow fadeInUp" data-wow-delay="0.6s">
+                        <img alt="client" src="/client1.png" class="wow fadeInUp">
+                        <img alt="client" src="/client2.png" class="wow fadeInUp" data-wow-delay="0.2s">
+                        <img alt="client" src="/images/client3.png" class="wow fadeInUp" data-wow-delay="0.4s">
+                        <img alt="client" src="/images/client4.png" class="wow fadeInUp" data-wow-delay="0.6s">
                     </div>
                 </div>
             </div>	
@@ -430,7 +431,7 @@
                                 <div class="client-pic text-center">
 
                                     <!-- /.client photo -->
-                                    <img src="../../images/testi1.png" alt="client">
+                                    <img src="/images/testi1.png" alt="client">
                                 </div>
                                 <div class="box">
 
@@ -449,7 +450,7 @@
                                 <div class="client-pic text-center">
 
                                     <!-- /.client photo -->
-                                    <img src="../../images/testi2.png" alt="client">
+                                    <img src="/images/testi2.png" alt="client">
                                 </div>
                                 <div class="box">
 
@@ -468,7 +469,7 @@
                                 <div class="client-pic text-center">
 
                                     <!-- /.client photo -->
-                                    <img src="../../images/testi3.png" alt="client">
+                                    <img src="/images/testi3.png" alt="client">
                                 </div>
                                 <div class="box">
 
@@ -490,7 +491,7 @@
 
         <!-- /.contact section -->
         <div id="contact">
-            <div class="contact fullscreen parallax" style="background-image:url('../../images/fh3.png');" data-img-width="2000" data-img-height="1334" data-diff="100">
+            <div class="contact fullscreen parallax" style="background-image:url('/fh3.png');" data-img-width="2000" data-img-height="1334" data-diff="100">
                 <div class="overlay">
                     <div class="container">
                         <div class="row contact-row">
@@ -540,12 +541,12 @@
         </footer>
 
         <!-- /.javascript files -->
-        <script src="../../views/js/jquery.js"></script>
+        <script src="/jquery.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
-        <script src="../../views/js/custom.js"></script>
-        <script src="../../views/js/jquery.sticky.js"></script>
-        <script src="../../views/js/wow.min.js"></script>
-        <script src="../../views/js/owl.carousel.min.js"></script>
+        <script src="/custom.js"></script>
+        <script src="/jquery.sticky.js"></script>
+        <script src="/wow.min.js"></script>
+        <script src="/owl.carousel.min.js"></script>
         
         <script>
                                     new WOW().init();
